@@ -11,18 +11,3 @@ const Circle = {
         console.log('draw');
     }
 }
-
-// Factory 
- 
-function CreateCircle(raduies) 
-{
- return {
-     radiues ,
-     draw: function () { 
-         console.log('draw function !!');
-     }
- }
-} 
-
-
-let circle = CreateCircle(1)
